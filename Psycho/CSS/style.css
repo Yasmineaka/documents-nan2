@@ -1,0 +1,266 @@
+body {
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+}
+/* nav */
+.navbar {
+    position: relative;
+    background-color: rgb(144, 190, 235);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    font-size: 20px;
+    font-family: Arial;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+}
+
+.navbar .nav-links ul li {
+    margin: 0 20px
+
+}
+/* fin de ma nav */
+  h1 {
+    color: rgb(144, 190, 235);
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .section h2 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .section p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+
+ 
+
+  .img1 {
+    width: 30%;
+    height: 300px;
+  }
+
+  .img2 {
+    width: 30%;
+    height: 300px;
+  }
+
+  .section-content {
+    display: flex;
+  }
+
+  .section-content .image-container {
+    flex: 1;
+  }
+
+  .section-content .image-container img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-left: 100px;
+    border: 3px solid rgb(144, 190, 235);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .section-content .text-container {
+    flex: 1;
+    padding-left: 30px;
+  }
+
+
+
+  /* clients */
+  .client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+  }
+  .client img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgb(129, 129, 241);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .client h4 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .client p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  
+.client{
+  display: inline-flex;
+  justify-content: center;
+  margin: 5%;
+}
+
+
+ .client img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgb(144, 190, 235);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .client h4 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+  }
+
+  .client p {
+    font-size: 14px;
+    color: #666;
+  } 
+/* nos services */
+  .section_equipe_service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section_equipe_service h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .div_serv {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 400px;
+    max-width: 100%;
+   
+  }
+  .div_serv h2{
+    padding-left: 10%;
+  }
+  .div_serv ul {
+    margin-top: 10px;
+    padding-left: 10%;
+  }
+  li{
+    list-style: none;
+  }
+  .div_serv ul li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 8px;
+    
+  }
+  
+ 
+/* footer */
+.footer{
+    width: auto;
+    padding: 20px 80px;
+    margin: 0;
+    background:  black;
+    text-align: center;
+}
+
+.footer p{
+    color: rgb(243, 238, 238);
+    margin: 20px auto;
+}
+
+
+/* responsivité */
+  @media screen and (max-width: 1400px) {
+    .text-container p{
+      font-size: 15px;
+    }
+    .text-container h2{
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1115px) {
+    .section p{
+      font-size: 14px;
+    }
+    .section-content{
+      display: block;
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .dashboard {
+      padding: 10px;
+    }
+  
+   
+    .section {
+      width: 100%;
+      padding: 15px;
+    }
+    .div_serv {
+      width: 100%;
+      max-width: 500px;
+      margin: 20px;
+    }
+  }
+
+
+
+  
